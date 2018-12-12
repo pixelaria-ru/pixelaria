@@ -1,0 +1,33 @@
+.header
+  position: fixed;
+  width: 100%
+  .container
+    padding 35px 85px
+  .flex
+    justify-content: space-between;
+
+  &__logo
+    position: relative;
+    a
+      font-size: 18px;
+      font-weight: bold;
+      text-transform:  uppercase;
+      letter-spacing: 2px;
+      color: #ffffff;
+      &:after
+        content ''
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: -8px
+        right: 15px
+        transform: rotate(30deg);
+        background-color: #ffffff;
+
+
+.list-item
+  margin-left: 20px
+  &__link
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;

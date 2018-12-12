@@ -1,0 +1,31 @@
+doctype html
+html(lang='ru')
+  head
+    meta( charset='utf-8')
+    link( rel='stylesheet' href='css/style.css')
+    title pixelaria 
+  body
+  include inc/header.pug
+  main.main
+    section.main__initial-screen
+      .grid
+        .initial-screen__item
+          .initial-screen__item-img
+            img(src='images/devices.png')
+          h3 Портфолио
+          hr
+          p Создаем классные, адаптивные и функциональные сайты 
+        .initial-screen__item.active
+          .initial-screen__item-img
+            img(src='images/about.png')
+          h3 О студии
+          hr
+          p Наших ключевые возможности, навыки, опыт и контактные данные
+        .initial-screen__item
+          .initial-screen__item-img
+            img(src='images/price.png')
+          h3 Стоимость услуг
+          hr
+          p Цены и время разработки web-проектов различной сложности  
+      
+    
