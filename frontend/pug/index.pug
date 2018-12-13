@@ -2,13 +2,14 @@ doctype html
 html(lang='ru')
   head
     meta( charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover")
     link( rel='stylesheet' href='css/style.css')
     title pixelaria 
   body
   include inc/header.pug
   main.main
-    section.main__initial-screen
-      .grid
+    section.section.section--initial-screen
+      .container.grid
         .initial-screen__item
           .initial-screen__item-img
             img(src='images/devices.png')
@@ -27,5 +28,140 @@ html(lang='ru')
           h3 Стоимость услуг
           hr
           p Цены и время разработки web-проектов различной сложности  
+    section.section.section--price
+        .container.flex
+          .section--price__products.flex
+            article.section--price__product-item
+              h2 Landing Page
+              span 15000 — 35000 ₽ 
+              ul.product-item__list
+                li.product-item__list-item
+                  p Проработанная структура и УТП
+                li.product-item__list-item
+                  p Яркий, современный дизайн
+                li.product-item__list-item
+                  p Актуальные модули и функции 
+                li.product-item__list-item
+                  p Интеграция с CRM, экварингом 
+                li.product-item__list-item
+                  p Продуманные интерфейсы
+              button.button.button--green Заказать
+            article.section--price__product-item
+              h2 Магазин
+              span 70 000 — 150000 ₽ 
+              ul.product-item__list
+                li.product-item__list-item
+                  p Проработанная структура и УТП
+                li.product-item__list-item
+                  p Яркий, современный дизайн
+                li.product-item__list-item
+                  p Актуальные модули и функции 
+                li.product-item__list-item
+                  p Интеграция с CRM, экварингом 
+                li.product-item__list-item
+                  p Продуманные интерфейсы
+              button.button.button--green Заказать
+            article.section--price__product-item
+              h2 Корпоративный
+              span 60 000 — 200000 ₽ 
+              ul.product-item__list
+                li.product-item__list-item
+                  p Проработанная структура и УТП
+                li.product-item__list-item
+                  p Яркий, современный дизайн
+                li.product-item__list-item
+                  p Актуальные модули и функции 
+                li.product-item__list-item
+                  p Интеграция с CRM, экварингом 
+                li.product-item__list-item
+                  p Продуманные интерфейсы
+              button.button.button--green Заказать
+          p.section--price__aditional-text Мы всегда обсуждаем цену индивидуально. Свяжитесь с нами, чтобы получить точную оценку вашего проекта.        
+    section.section.section--partfolio.container
+      article.section--partfolio__article.flex  
+          .partfolio-article__left-side
+            img(src='images/example.png' alt='')
+            p Пролистайте вниз
+          .partfolio-article__right-side
+            h2 Мерасофт Групп
+            span / Корпоративный сайт
+            ul.partfolio-list
+              li.partfolio-list__item
+                h3 О проекте:
+                p Корпоративный мульти-лендинг для B2B-компании, разрабатывающей программные продукты на базе платформы 1С и Bitrix    
+              li.partfolio-list__item
+                h3 Решения: 
+                p Содержательные и привлекательные промостраницы в стиле Stripe для каждого приложения компании. Личный кабинет для управления подписками. Три языка.          
+              li.partfolio-list__item
+                h3 Технологии: 
+                p CMS Bitrix, кастомные модули форм, личного кабинета и мультиязычности, SVG-анимации, адаптивная верстка.
+            span mera-soft.ru   |   2017-2019
+      article.section--partfolio__article.flex  
+          .partfolio-article__left-side
+            img(src='images/example.png' alt='')
+            p Пролистайте вниз
+          .partfolio-article__right-side
+            h2 Мерасофт Групп
+            span / Корпоративный сайт
+            ul.partfolio-list
+              li.partfolio-list__item
+                h3 О проекте:
+                p Корпоративный мульти-лендинг для B2B-компании, разрабатывающей программные продукты на базе платформы 1С и Bitrix    
+              li.partfolio-list__item
+                h3 Решения: 
+                p Содержательные и привлекательные промостраницы в стиле Stripe для каждого приложения компании. Личный кабинет для управления подписками. Три языка.          
+              li.partfolio-list__item
+                h3 Технологии: 
+                p CMS Bitrix, кастомные модули форм, личного кабинета и мультиязычности, SVG-анимации, адаптивная верстка.
+            span mera-soft.ru   |   2017-2019
+      article.section--partfolio__article.flex  
+          .partfolio-article__left-side
+            img(src='images/example.png' alt='')
+            p Пролистайте вниз
+          .partfolio-article__right-side
+            h2 Мерасофт Групп
+            span / Корпоративный сайт
+            ul.partfolio-list
+              li.partfolio-list__item
+                h3 О проекте:
+                p Корпоративный мульти-лендинг для B2B-компании, разрабатывающей программные продукты на базе платформы 1С и Bitrix    
+              li.partfolio-list__item
+                h3 Решения: 
+                p Содержательные и привлекательные промостраницы в стиле Stripe для каждого приложения компании. Личный кабинет для управления подписками. Три языка.          
+              li.partfolio-list__item
+                h3 Технологии: 
+                p CMS Bitrix, кастомные модули форм, личного кабинета и мультиязычности, SVG-анимации, адаптивная верстка.
+            span mera-soft.ru   |   2017-2019
+    section.section.section--about.container.flex
+      article.section--about__article
+        img(src='images/studio.png' alt='')
+        h2 Студия
+        p Эффективно решаем весь комплекс задач web-проектов: от анализа рынка и проектирования прототипов до разработки и реализации программной части. Наша специализация — создание красивых, легких,, удобных современных сайтов: промо-страниц, интернет-магазинов, корпоративных сайтов и нестандартных проектов.
+        p Использование методологий Scrum и Agile обеспечивает высокую скорость разработки, гибкость проекта, его соответствие желаниям ваших клиентов.   
+        img(src='images/business-affiliate-network.png' alt='')
+      article.section--about__article
+        img(src='images/web.png' alt='')
+        h2 Разработка
+        p Эффективно решаем весь комплекс задач web-проектов: от анализа рынка и проектирования прототипов до разработки и реализации программной части. Наша специализация — создание красивых, легких,, удобных современных сайтов: промо-страниц, интернет-магазинов, корпоративных сайтов и нестандартных проектов.
+        p Использование методологий Scrum и Agile обеспечивает высокую скорость разработки, гибкость проекта, его соответствие желаниям ваших клиентов.   
+
+        img(src='images/terminal.png' alt='')
+      article.section--about__article
+        img(src='images/skills.png' alt='')
+        h2 Навыки
+        p Эффективно решаем весь комплекс задач web-проектов: от анализа рынка и проектирования прототипов до разработки и реализации программной части. Наша специализация — создание красивых, легких,, удобных современных сайтов: промо-страниц, интернет-магазинов, корпоративных сайтов и нестандартных проектов.
+        p Использование методологий Scrum и Agile обеспечивает высокую скорость разработки, гибкость проекта, его соответствие желаниям ваших клиентов.   
+
+        img(src='images/send-message-button.png' alt='')
+      article.section--about__article
+        img(src='images/contacts.png' alt='')
+        h2 Контакты
+        p Эффективно решаем весь комплекс задач web-проектов: от анализа рынка и проектирования прототипов до разработки и реализации программной части. Наша специализация — создание красивых, легких,, удобных современных сайтов: промо-страниц, интернет-магазинов, корпоративных сайтов и нестандартных проектов.
+        p Использование методологий Scrum и Agile обеспечивает высокую скорость разработки, гибкость проекта, его соответствие желаниям ваших клиентов.   
+
+        img(src='images/conversation-speech-bubbles-.png' alt='')
+        
+        
       
-    
+
+      
