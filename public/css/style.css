@@ -320,6 +320,13 @@ body
     height: max-content;
 }
 
+.section--partfolio__article
+{
+    margin-top: 0;
+
+    transition: .7s;
+}
+
 .partfolio-article__left-side
 {
     position: relative;
@@ -352,7 +359,7 @@ body
 {
     position: -webkit-sticky;
     position: sticky;
-    top: 90px;
+    top: 88px;
 
     width: 380px;
     height: 100vh;
