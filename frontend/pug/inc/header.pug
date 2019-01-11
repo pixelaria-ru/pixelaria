@@ -1,7 +1,10 @@
+include mixins.pug
 header.header
   .container.flex
     .header__logo
       a(href='index.html') Pixelaria
+        
+    +icon('phone-receiver')
     nav.header__nav
       ul.nav__list.flex
         li.list-item
@@ -10,7 +13,7 @@ header.header
           a(href='#').list-item__link О студии
         li.list-item
           a(href='#').list-item__link Стоимость
-        li.list-item
+        li.list-item.zak
           a(href='#').list-item__link Заказать сайт
            
     

@@ -3,7 +3,7 @@ html(lang='ru')
   head
     meta( charset='utf-8')
     meta(name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover")
-    link( rel='stylesheet' href='css/style.css')
+    link( rel='stylesheet' href='css/style.min.css')
     title pixelaria 
   body
   include inc/header.pug
@@ -30,9 +30,11 @@ html(lang='ru')
           p Цены и время разработки web-проектов различной сложности  
     section.section.section--price
         .container.flex
+        
           .section--price__products.flex
+            
             article.section--price__product-item
-              h2 Landing Page
+              h3 Landing Page
               span 15000 — 35000 ₽ 
               ul.product-item__list
                 li.product-item__list-item
@@ -47,7 +49,7 @@ html(lang='ru')
                   p Продуманные интерфейсы
               button.button.button--green Заказать
             article.section--price__product-item
-              h2 Магазин
+              h3 Магазин
               span 70 000 — 150000 ₽ 
               ul.product-item__list
                 li.product-item__list-item
@@ -62,7 +64,7 @@ html(lang='ru')
                   p Продуманные интерфейсы
               button.button.button--green Заказать
             article.section--price__product-item
-              h2 Корпоративный
+              h3 Корпоративный
               span 60 000 — 200000 ₽ 
               ul.product-item__list
                 li.product-item__list-item
@@ -132,7 +134,7 @@ html(lang='ru')
                 h3 Технологии: 
                 p CMS Bitrix, кастомные модули форм, личного кабинета и мультиязычности, SVG-анимации, адаптивная верстка.
             span mera-soft.ru   |   2017-2019
-    section.section.section--about.container.flex
+    section.section.section--about.flex
       article.section--about__article
         img(src='images/studio.png' alt='')
         h2 Студия

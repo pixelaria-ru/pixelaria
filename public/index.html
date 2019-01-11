@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>pixelaria </title>
   </head>
   <body></body>
   <header class="header">
     <div class="container flex">
       <div class="header__logo"><a href="index.html">Pixelaria</a></div>
+        <svg class="icon icon-phone-receiver ">
+          <use xlink:href="#icon-phone-receiver"></use>
+        </svg>
       <nav class="header__nav">
         <ul class="nav__list flex">
           <li class="list-item"><a class="list-item__link" href="#">Портфолио</a></li>
           <li class="list-item"><a class="list-item__link" href="#">О студии</a></li>
           <li class="list-item"><a class="list-item__link" href="#">Стоимость</a></li>
-          <li class="list-item"><a class="list-item__link" href="#">Заказать сайт</a></li>
+          <li class="list-item zak"><a class="list-item__link" href="#">Заказать сайт</a></li>
         </ul>
       </nav>
     </div>
@@ -47,7 +50,7 @@
       <div class="container flex">
         <div class="section--price__products flex">
           <article class="section--price__product-item">
-            <h2>Landing Page</h2><span>15000 — 35000 ₽ </span>
+            <h3>Landing Page</h3><span>15000 — 35000 ₽ </span>
             <ul class="product-item__list">
               <li class="product-item__list-item">
                 <p>Проработанная структура и УТП</p>
@@ -68,7 +71,7 @@
             <button class="button button--green">Заказать</button>
           </article>
           <article class="section--price__product-item">
-            <h2>Магазин</h2><span>70 000 — 150000 ₽ </span>
+            <h3>Магазин</h3><span>70 000 — 150000 ₽ </span>
             <ul class="product-item__list">
               <li class="product-item__list-item">
                 <p>Проработанная структура и УТП</p>
@@ -89,7 +92,7 @@
             <button class="button button--green">Заказать</button>
           </article>
           <article class="section--price__product-item">
-            <h2>Корпоративный</h2><span>60 000 — 200000 ₽ </span>
+            <h3>Корпоративный</h3><span>60 000 — 200000 ₽ </span>
             <ul class="product-item__list">
               <li class="product-item__list-item">
                 <p>Проработанная структура и УТП</p>
@@ -181,7 +184,7 @@
         </div>
       </article>
     </section>
-    <section class="section section--about container flex">
+    <section class="section section--about flex">
       <article class="section--about__article"><img src="images/studio.png" alt="">
         <h2>Студия</h2>
         <p>Эффективно решаем весь комплекс задач web-проектов: от анализа рынка и проектирования прототипов до разработки и реализации программной части. Наша специализация — создание красивых, легких,, удобных современных сайтов: промо-страниц, интернет-магазинов, корпоративных сайтов и нестандартных проектов.</p>
@@ -205,5 +208,5 @@
     </section>
   </main>
   <footer class="footer"></footer>
-  <script src="js/lib.js"> </script>
+  <script src="js/lib.min.js"> </script>
 </html>
